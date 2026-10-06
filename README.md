@@ -64,6 +64,7 @@ Windows Server Security Events
 ---
 
 # 1. Windows Security Event Log Ingestion
+![ Event log ]( screenshots/00-windows-event-log-ingestion.png)
 
 Windows Security Event Log data was imported into Splunk from an EVTX file.
 
@@ -89,6 +90,7 @@ The dataset included fields such as:
 ---
 
 # 2. Windows Event Analysis
+![ Event Analysis ]( screenshots/06-top-windows-event-ids.png)
 
 The most frequently occurring Windows Security Event IDs were identified using:
 
@@ -104,6 +106,7 @@ Examples of observed security event types included authentication events, privil
 ---
 
 # 3. Successful Windows Logon Analysis
+![  Successful Windows Logon Analysis ]( screenshots/09-successful-logons.png)
 
 Windows Event ID 4624 was investigated to identify successful authentication activity.
 
