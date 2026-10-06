@@ -118,6 +118,7 @@ This analysis established a baseline for successful authentication activity that
 ---
 
 # 4. Failed Windows Logon Investigation
+![ Failed Windows Logon Investigation ]( screenshots/03-failed-logon-investigation.png )
 
 Windows Event ID 4625 was analyzed to investigate failed authentication attempts.
 
