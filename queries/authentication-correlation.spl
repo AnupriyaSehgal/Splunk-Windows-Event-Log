@@ -1,0 +1,6 @@
+source="event.evtx" (EventCode=4624 OR EventCode=4625)
+| stats
+    count(eval(EventCode=4624)) as Successful_Logons
+    count(eval(EventCode=4625)) as Failed_Logons
+    by Account_Name
+| sort - Failed_Logons
