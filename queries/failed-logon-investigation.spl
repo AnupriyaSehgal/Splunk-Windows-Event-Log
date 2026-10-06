@@ -1,1 +1,3 @@
-
+source="event.evtx" EventCode=4625
+| table _time Account_Name Account_Domain Logon_Type Authentication_Package Failure_Reason ComputerName
+| sort - _time
