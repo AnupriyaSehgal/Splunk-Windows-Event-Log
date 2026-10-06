@@ -173,6 +173,7 @@ The investigation identified six failed logon events associated with the adminis
 ---
 
 # 6. Successful vs Failed Authentication Correlation
+![Successful vs Failed Authentication Correlatio ]( screenshots/04-authentication-correlation.png )
 
 Successful and failed authentication activity was correlated using Windows Event IDs 4624 and 4625.
 
@@ -192,6 +193,7 @@ The correlation allowed successful and unsuccessful authentication activity to b
 ---
 
 # 7. Repeated Failed Network Logon Detection
+![ Repeated Failed Network Logon Detection ]( screenshots/05-repeated-failed-network-logons.png )
 
 A threshold-based SPL detection was developed to identify repeated failed Windows network logons.
 
@@ -247,6 +249,7 @@ The detection is intentionally described as **Repeated Failed Windows Network Lo
 ---
 
 # 8. Security Activity Over Time
+![ Security Activity Over Time ]( screenshots/07-security-events-over-time.png )
 
 Windows Security Event activity was visualized over time using:
 
@@ -262,6 +265,7 @@ Time-based analysis is useful during SOC investigations because analysts can ide
 ---
 
 # 9. Windows Authentication & Security Monitoring Dashboard
+![ Windows Authentication & Security Monitoring ]( screenshots/08-windows-authentication-dashboard.png)
 
 A custom Splunk dashboard was created to centralize Windows security monitoring.
 
