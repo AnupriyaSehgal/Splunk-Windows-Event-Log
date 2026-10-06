@@ -1,0 +1,8 @@
+source="event.evtx" EventCode=4625 Logon_Type=3
+| stats
+    count as Failed_Logons
+    min(_time) as FirstSeen
+    max(_time) as LastSeen
+    by Account_Name, ComputerName, Failure_Reason
+| convert ctime(FirstSeen) ctime(LastSeen)
+| where Failed_Logons >= 5
