@@ -1,0 +1,2 @@
+source="event.evtx"
+| timechart span=1h count
