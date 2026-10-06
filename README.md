@@ -160,6 +160,7 @@ The events were associated with repeated failed network authentication attempts 
 ---
 
 # 5. Failed Logons by Account
+![ Failed Logons by Account ]( screenshots/02-failed-logons-by-account.png)
 
 The failed authentication events were grouped by account using SPL.
 
